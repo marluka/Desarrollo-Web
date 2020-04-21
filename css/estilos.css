@@ -2,6 +2,7 @@
 
 * Selectores: hacen referencia a la etiqueta, id o clase HTML
 * Declaración: Incluyen las propiedades a aplicar al selector indicado.
+    y estan dentro de llaves {...}
     * Propiedad: Indica el atributo a modificar.
     * Valor: El valor asignado a la propiedad.
 */
