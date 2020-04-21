@@ -34,4 +34,11 @@ h4,
 h5,
 h6 {
   font-family: "Fjalla One", sans-serif;
+  font-weight: normal; /* peso de la fuenta: normal o negrita*/
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5em; /* alto de linea */
+  letter-spacing: -0.2px;
 }
