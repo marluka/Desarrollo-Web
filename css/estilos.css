@@ -1,3 +1,21 @@
-header {
+/* Reglas: Están formadas por los sigieontes elementos: 
+
+* Selectores: hacen referencia a la etiqueta, id o clase HTML
+* Declaración: Incluyen las propiedades a aplicar al selector indicado.
+    * Propiedad: Indica el atributo a modificar.
+    * Valor: El valor asignado a la propiedad.
+*/
+
+/* Selector de etiqueta: header - section - article - nav*/
+/* header {
   background: pink;
-}
+} */
+
+/* Selector descendente: Es un elemento hijo de otro */
+/* body header div nav ol li a */
+
+/* Selector de clase: . */
+/* .link */
+
+/* Selector de id: # */
+/* #portafolio */
