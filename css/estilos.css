@@ -34,14 +34,16 @@ h4,
 h5,
 h6 {
   font-family: "Fjalla One", sans-serif;
-  font-weight: normal; /* peso de la fuenta: normal o negrita*/
+  font-weight: normal;
 }
 
 h1 {
   font-size: 40px;
-  line-height: 1.5em; /* alto de linea */
+  line-height: 1.5em;
   letter-spacing: -0.2px;
   color: white;
+  margin: 100px 150px 70px 30px;
+  /* margin: top right bottom left; */
 }
 h1 strong {
   color: #026fff;
@@ -59,6 +61,7 @@ h1 strong {
 .project {
   border: 1px solid gray;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project-details {
