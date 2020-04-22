@@ -42,3 +42,15 @@ h1 {
   line-height: 1.5em; /* alto de linea */
   letter-spacing: -0.2px;
 }
+
+.hero {
+  height: 300px;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
