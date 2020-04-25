@@ -26,6 +26,7 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
+  background: #fafafa;
   margin: 0px;
 }
 
@@ -117,9 +118,11 @@ h2 {
   height: 300px;
   /* background-image: url("../images/hero.jpg"); */
   /* background-color: #1b2127; */
-  background: #fc5c7d; /* fallback for old browsers */
+  /* Gradient Sublime light */
+  background: #fc5c7d;
   background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb);
   background: linear-gradient(to right, #fc5c7d, #6a82fb);
+  /* ---------------------- */
   /* background-size: 500px 300px; */
   /* background-repeat: no-repeat; */
   /* background-position-x: right; */
@@ -140,7 +143,8 @@ h2 {
 }
 
 .project {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   /* margin: 10px; */
   margin-bottom: 15px;
@@ -219,7 +223,8 @@ h2 {
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
-  background: #e5f4fd;
+  /* background: #e5f4fd; */
+  background: #efd3fd;
 }
 
 .event img {
@@ -230,7 +235,7 @@ h2 {
 
 .event-detail {
   margin: 20px 40px;
-  margin-top: -40px;
+  margin-top: -50px;
   background-color: white;
   position: relative;
   padding: 20px;
@@ -251,10 +256,12 @@ h2 {
 }
 
 .contact {
-  /* background-color: #056fff; */
-  background: #fc5c7d; /* fallback for old browsers */
+  /* Gradient Sublime light */
+  background: #fc5c7d;
   background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb);
   background: linear-gradient(to right, #fc5c7d, #6a82fb);
+  /* ---------------------- */
+  /* background-color: #056fff; */
   color: white;
   height: 150px;
   padding: 10px;
@@ -289,12 +296,13 @@ h2 {
 }
 
 .form-email input {
-  border-color: gray;
+  /* border-color: gray; */
+  border-color: #c1c0c0;
   border-style: solid;
-  border-radius: 5px;
-  padding: 10px 20px 10px 25px;
+  border-radius: 6px;
+  padding: 10px 20px 10px 30px;
   background-image: url("../images/envelope.svg");
-  background-size: 15px 15px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 5px;
@@ -307,7 +315,11 @@ h2 {
   padding: 10px 0;
   border-radius: 5px;
   width: 100px;
-  margin-top: 10px;
+  margin: 10px 0 10px;
+}
+
+button:hover {
+  background: #bd4d9b;
 }
 
 .form-email h3 {
