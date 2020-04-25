@@ -248,6 +248,7 @@ h2 {
   background-color: #056fff;
   color: white;
   height: 150px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
